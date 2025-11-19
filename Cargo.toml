@@ -1,0 +1,16 @@
+[package]
+edition = "2021"
+name = "tasuku-rs"
+version = "0.1.0"
+
+[dependencies]
+console = "0.15" # Useful for some terminal utilities if needed, but crossterm is main
+crossterm = "0.27" 
+futures = "0.3" 
+indicatif = "0.17" # Might be overkill if we are building custom renderer, sticking to crossterm for manual control as per JS impl
+once_cell = "1.18" 
+parking_lot = "0.12" 
+tokio = {version = "1.0", features = ["full"]} 
+
+[dev-dependencies]
+tokio = {version = "1.0", features = ["full"]}
