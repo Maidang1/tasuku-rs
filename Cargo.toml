@@ -1,6 +1,12 @@
 [package]
+categories = ["command-line-utilities", "development-tools"]
+description = "A beautiful task runner for Rust, inspired by the JavaScript tasuku library"
 edition = "2021"
+keywords = ["cli", "task", "runner", "terminal", "progress"]
+license = "MIT"
 name = "tasuku-rs"
+readme = "README.md"
+repository = "https://github.com/Maidang1/tasuku-rs"
 version = "0.1.0"
 
 [dependencies]
